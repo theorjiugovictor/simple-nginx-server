@@ -3,14 +3,14 @@
 Hi Cool Keeds :rocket: Welcome to your first DevOps challenge! This repository contains everything you need to deploy a static page behind NGINX as required for the HNG13 Stage 0 DevOps task.
 
 ## ✅ Required Metadata (update before submission)
-- **Name:** `<Your Full Name>`
-- **Slack Username:** `<@your-slack-handle>`
-- **Server URL:** `http://<your-server-ip-or-domain>/`
+- **Name:** Prince Victor Orjiugo
+- **Slack Username:** `@princeorjiugo`
+- **Server URL:** `http://35.209.17.171/`
 
-> Once you complete the deployment, replace the placeholders above (and inside `index.html`) with your actual details before submitting.
+The landing page (`index.html`) has been updated with the same details. If anything changes (new IP, Slack handle, etc.), refresh both files before resubmitting.
 
 ## 📂 Project Structure
-- `index.html` – Static landing page required by the brief. Update the highlighted fields with your name, Slack handle, platform, and deployment date.
+- `index.html` – Static landing page required by the brief. It currently displays Prince Victor Orjiugo, `@princevictororjiugo`, Google Cloud Platform, and the deployment date (16 October 2025). Update if you redeploy with different metadata.
 - `Dockerfile` – Builds an NGINX image that serves content from `/var/www/html` as specified.
 - `nginx/default.conf` – Custom server block pointing NGINX to `/var/www/html` on port 80.
 
@@ -47,11 +47,12 @@ To stop the container, press `Ctrl+C` (because `--rm` cleans up automatically).
    git clone https://github.com/<your-github-username>/simple-nginx-server.git
    cd simple-nginx-server
    ```
-4. **Customize `index.html`**:
-   - Replace the placeholders with:
-     - `Welcome to DevOps Stage 0 - <Your Name>/<Slack Username>`
-     - `Successfully deployed on <Platform Name>`
-     - `Deployed: <Deployment Date>`
+4. **Customize `index.html`** (already completed for this deployment):
+    - Current content shows:
+       - `Welcome to DevOps Stage 0 - Prince Victor Orjiugo/@princeorjiugo`
+       - `Successfully deployed on Google Cloud Platform`
+       - `Deployed: 16 October 2025`
+    - Update these lines if you roll out new details.
 5. **Build and run** the container on the server:
    ```bash
    docker build -t simple-nginx-server .
@@ -61,9 +62,9 @@ To stop the container, press `Ctrl+C` (because `--rm` cleans up automatically).
 7. **Keep the container running** until the grading is complete.
 
 ## 📝 Submission Checklist
-- [ ] `README.md` updated with your actual name, Slack handle, and live server URL.
-- [ ] `index.html` updated with your details, platform, and deployment date.
-- [ ] Server running and reachable over HTTP on port 80.
+- [x] `README.md` updated with your actual name, Slack handle, and live server URL.
+- [x] `index.html` updated with your details, platform, and deployment date.
+- [x] Server running and reachable over HTTP on port 80 (`http://35.209.17.171/`).
 - [ ] Submitted via Slack command `/stage-zero-devops` with the required info.
 - [ ] Checked Thanos bot for the grading status.
 
