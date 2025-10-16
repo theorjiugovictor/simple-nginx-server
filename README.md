@@ -4,7 +4,7 @@ Hi Cool Keeds :rocket: Welcome to your first DevOps challenge! This repository c
 
 ## ✅ Required Metadata (update before submission)
 - **Name:** Prince Victor Orjiugo
-- **Slack Username:** `@princeorjiugo`
+- **Slack Username:** `@princevictororjiugo`
 - **Server URL:** `http://35.209.17.171/`
 
 The landing page (`index.html`) has been updated with the same details. If anything changes (new IP, Slack handle, etc.), refresh both files before resubmitting.
